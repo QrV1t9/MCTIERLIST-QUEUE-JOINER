@@ -1,6 +1,6 @@
 javascript:
-var status;
-alert("Meowzers' Queue Joiner Active!")
+var status = "";
+alert("Meowzers' Queue Joiner Active!");
 var i = setInterval(() => {
     try {
         if (document.getElementsByClassName("defaultColor__4bd52 text-md/medium_cf4812 defaultColor__5345c title__9293f")[0].innerHTML.includes("waitlist")) {
