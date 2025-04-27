@@ -7,7 +7,7 @@ var i = setInterval(() => {
         if (!document.getElementsByClassName("gridContainer__623de")[0].innerHTML.includes(document.getElementsByClassName("text-sm/medium_cf4812 title_b6c092")[0].innerHTML)) {
             if (!document.getElementsByClassName("gridContainer__623de")[0].innerHTML.includes("No Testers Online")) {
                 if (document.getElementsByClassName("gridContainer__623de")[0].getElementsByTagName("li").length < 21) {
-                    document.getElementsByClassName("gridContainer__623degridContainer__623de")[0].click();
+                    document.getElementsByClassName("button__201d5")[3].click();
                     console.log("-----------------------");
                     console.log("");
                     console.log("Attempted to join queue!");
